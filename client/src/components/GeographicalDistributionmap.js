@@ -24,7 +24,7 @@ const GeoDistribution = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/geo-distribution')
+    axios.get('https://code-backend-tqsq.onrender.com/api/geo-distribution')
       .then(response => {
         const data = response.data;
         if (Array.isArray(data)) {
