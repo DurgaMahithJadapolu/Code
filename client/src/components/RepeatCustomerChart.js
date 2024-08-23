@@ -21,7 +21,7 @@ const RepeatCustomersChart = () => {
   });
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/repeat-customers?interval=daily')
+    axios.get('https://code-backend-tqsq.onrender.com/api/repeat-customers?interval=daily')
       .then(response => {
         const data = response.data;
 
