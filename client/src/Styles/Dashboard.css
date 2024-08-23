@@ -1,0 +1,17 @@
+.dashboard {
+    padding: 20px;
+    background-color: #f4f6f9;
+  }
+  
+  .chart-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+  }
+  
+  .tag {
+    text-align: center;
+    margin-bottom: 20px;
+    color:blue;
+  }
+  
