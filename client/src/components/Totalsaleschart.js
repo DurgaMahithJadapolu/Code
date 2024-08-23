@@ -23,7 +23,7 @@ const TotalSales = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/total-sales')
+    axios.get('https://code-backend-tqsq.onrender.com/api/total-sales')
       .then(response => {
         console.log(response.data); // Log entire data
         console.log(response.data[0]); // Log a sample item
