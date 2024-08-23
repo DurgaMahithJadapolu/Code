@@ -27,7 +27,7 @@ const CohortValueChart = () => {
   });
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/customer-lifetime-value')
+    axios.get('https://code-backend-tqsq.onrender.com/api/customer-lifetime-value')
       .then(response => {
         console.log(response.data); // Log data to check its structure
         const data = response.data;
