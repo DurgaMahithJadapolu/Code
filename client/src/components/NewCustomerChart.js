@@ -38,7 +38,7 @@ const NewCustomersChart = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    axios.get('http://localhost:5000/api/new-customers')
+    axios.get('https://code-backend-tqsq.onrender.com/api/new-customers')
       .then(response => {
         console.log(response.data); // Log data to check its structure
         if (Array.isArray(response.data) && response.data.length > 0) {
